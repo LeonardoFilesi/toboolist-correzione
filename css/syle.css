@@ -7,9 +7,30 @@
 
 /*GENERAL*/
 body {
-    background-color: rgb(222, 237, 238);
+    background-color: rgb(195, 213, 214);
     font-family: Arial, Helvetica, sans-serif;
 }
+.btn {
+    border-radius: 5px;
+    padding: .3rem .8rem;
+    font-size: .8rem;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: rgb(70, 145, 245);
+    color: white;
+    border: rgb(70, 145, 245);
+}
+
+.btn2 {
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+}
+
+
 
 /*HEADER*/
 header {
@@ -27,3 +48,74 @@ header {
     display: inline;
     vertical-align: middle;
 }
+
+/*MAIN*/
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.actions {
+    padding: .8rem 1.4rem;
+    border-bottom: 2px rgb(195, 213, 214);
+}
+
+.task {
+    padding: 1.2rem 1.4rem
+}
+
+.task .main-list {
+    list-style-type: none;
+}
+
+.main-list > li {
+    margin-bottom:  .8rem;
+}
+
+.arrow {
+    margin-right: .5rem;
+    font-size: 1rem;
+}
+
+.secondary-list {
+            line-height: 2.4rem;
+}
+
+.circle {
+    border: 1px solid black;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5rem;
+    border-radius: 15px;
+}
+
+.checked {
+    background-color: white;
+    color: green;
+}
+
+.unchecked {
+    background-color: red;
+}
+.list-item {
+    font-size: 1rem;
+    display: inline;
+}
+
+.tag {
+    background-color: grey;
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 10px;
+    display: inline;
+
+}
+
+.editorial {}
+
+.recruiting {}
